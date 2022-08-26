@@ -1,0 +1,23 @@
+
+%link{rel: "stylesheet" ,type:"text/scss", href:"service_client.scss"}
+
+.box-el
+  - @clients.each do |client| 
+    .box{style: "background-image: url(#{client.image});"}
+      .box-inner
+        - if client.name!= " "
+          .the-content-box
+            .content-box-inner
+              %h1 #{client.name}
+              %ul
+                -client.highlights.length.times do |highlight|
+                  -if client.highlights[highlight]!=" "
+                    %li #{client.highlights[highlight]}
+        - else
+          .the-content-box-1
+            .content-box-inner
+              %h1 #{client.name}
+              %ul
+                -client.highlights.length.times do |highlight|
+                  -if client.highlights[highlight]!=" "
+                    %li #{client.highlights[highlight]}
