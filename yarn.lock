@@ -30,6 +30,11 @@
   resolved "https://registry.yarnpkg.com/@rails/actioncable/-/actioncable-7.0.3.tgz#71f08e958883af64f6a20489318b5e95d2c6dc5b"
   integrity sha512-Iefl21FZD+ck1di6xSHMYzSzRiNJTHV4NrAzCfDfqc/wPz4xncrP8f2/fJ+2jzwKIaDn76UVMsALh7R5OzsF8Q==
 
+"@stencil/core@~2.16.0":
+  version "2.16.1"
+  resolved "https://registry.yarnpkg.com/@stencil/core/-/core-2.16.1.tgz#f6752026af72a10356d5b1f27e2db6b1ee0c730f"
+  integrity sha512-s/UJp9qxExL3DyQPT70kiuWeb3AdjbUZM+5lEIXn30I2DLcLYPOPXfsoWJODieQywq+3vPiLZeIdkoqjf6jcSw==
+
 esbuild-android-64@0.15.5:
   version "0.15.5"
   resolved "https://registry.yarnpkg.com/esbuild-android-64/-/esbuild-android-64-0.15.5.tgz#3c7b2f2a59017dab3f2c0356188a8dd9cbdc91c8"
@@ -156,3 +161,10 @@ esbuild@^0.15.5:
     esbuild-windows-32 "0.15.5"
     esbuild-windows-64 "0.15.5"
     esbuild-windows-arm64 "0.15.5"
+
+ionicons@^6.0.2:
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/ionicons/-/ionicons-6.0.2.tgz#82c01bb7021cb84b28fa46591fde142d078b6d05"
+  integrity sha512-AyKfFaUKVoBz4eB8XkU7H1R5HFnVsgq5ijqSdbXC0lES9PDK/J6LUQz6XUJq0mVVQF5k9kczSPOLMW3mszG0mQ==
+  dependencies:
+    "@stencil/core" "~2.16.0"

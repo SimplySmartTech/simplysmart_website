@@ -13,5 +13,6 @@
  *= require_tree .
  *= require_self
  */
+@import './footer.css'
 @import "./service_client.scss"
 @import "navbar_style.css"
